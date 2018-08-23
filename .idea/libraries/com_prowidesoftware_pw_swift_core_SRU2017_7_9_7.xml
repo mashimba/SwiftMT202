@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.prowidesoftware:pw-swift-core:SRU2017-7.9.7" type="repository">
+    <properties maven-id="com.prowidesoftware:pw-swift-core:SRU2017-7.9.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/prowidesoftware/pw-swift-core/SRU2017-7.9.7/pw-swift-core-SRU2017-7.9.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
