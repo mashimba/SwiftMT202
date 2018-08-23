@@ -38,7 +38,7 @@ public class ClassMT202 {
         mt202.addField(field21);
 
         Field32A field32A = new Field32A()
-                .setAmount(amount+",")
+                .setAmount(amount)
                 .setCurrency(Currency.getInstance("PHP"))
                 .setDate(Calendar.getInstance());
         mt202.addField(field32A);
