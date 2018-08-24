@@ -13,12 +13,12 @@ public class ClassMT202 {
 
     public static void main(String[] args) {
 
-        String senderAddress = "UBPHPHMMXXX";
-        String receiverAddress = "PHSBPHMMXXX";
-        String transactionRef = "UBPH01060001";
-        String relatedRef = "NONREF";
-        String amount = "100000000";
-        String beneficiaryInstitution = "PHSBPHMMXXX";
+        String senderAddress = " COPZBEB0AXXX";
+        String receiverAddress = " LRLRXXXX4A11";
+        String transactionRef = "00345";
+        String relatedRef = "123456/DEV";
+        String amount = "100000000,00";
+        String beneficiaryInstitution = " TESTSEVT";
         String senderToReceiverInfo = "/TBB/TD INVESTMENT";
 
         final MT202 mt202 = new MT202();
@@ -53,9 +53,14 @@ public class ClassMT202 {
          */
 
         //Optional fields
-        Field72 field72 = new Field72()
-                .setComponent1(senderToReceiverInfo);
+        Field72 field72 = new Field72().setComponent1(senderToReceiverInfo);
         mt202.addField(field72);
+
+        Field11A field11A = new Field11A().setComponent1("test");
+        mt202.addField(field11A);
+
+        Field108 field108 = new Field108().setMUR("testagain");
+        mt202.addField(field108);
 
         printline(mt202.message());
 
